@@ -37,6 +37,7 @@ nav{
 .logo{
     font-size: 34px;
     font-weight: 800;
+    color: #4E47FF;
 }
 /* banner */
 .banner{
@@ -84,6 +85,47 @@ nav{
     width: 229px;
     height: 48px;
 }
+/* ready-button */
+.btn-ready{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 12px 36px;
+    margin: 20px 0;
+
+}
+/* productive-user-section */
+
+.productive-user-section{
+    margin: 0 150px;
+    padding: 50px 0;
+   background-color: #e5e7ff;
+   border-radius: 24px;
+  background-repeat: no-repeat;
+}
+.product-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 40px;
+    
+}
+
+    .product-number{
+        display: flex;
+        justify-content: space-around;
+    }
+    .product-num{
+        font-size: 80px;
+        font-weight: bold;
+        color: #4E47FF;
+    }
+    .product-letter{
+        color: #00000096;
+    }
 /* feedback */
 .feedback{
     
@@ -137,14 +179,32 @@ nav{
     color: #B3B3B3;
     margin-left: 12px;
 }
-/* div img{
-    width: 40px;
-    height: 40px;
-} */
+
 .feedbacx-box-image{
     display: flex;
 }
-/* Let’s Get in Touch-button */
+/* Ready to focus better */
+.Ready-to-focus-better{
+    padding: 71px 150px;
+}
+.ready-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.ready-description{
+font-size: ;
+font-weight: ;
+color: #000000be;
+margin: 20px 0;
+}
+.Ready-to-focus-better{
+    text-align: center;
+}
+.ready-image{
+    border-radius: 48px;
+}
+
 .btn-lets-from{
       color: #FFFFFF;
     background-color: #4E47FF;
@@ -184,7 +244,7 @@ nav{
 /* lets-get-in-touch-section */
 .lets-get-in-touch-section{
     
-     padding: 0 150px;
+     padding: 71px 150px;
     display: flex;
     justify-content: space-between;
 }
