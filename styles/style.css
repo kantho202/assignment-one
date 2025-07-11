@@ -84,7 +84,66 @@ nav{
     width: 229px;
     height: 48px;
 }
+/* feedback */
+.feedback{
+    
+    padding: 0 150px;
+}
+.feedback-one{
+    background-color: #fafcff;
+    /* border: 2px solid black; */
+    border-radius: 14px;
+    width: 346px;
+    height: 243px;
+    padding: 20px;
+     /* padding: 0 150px; */
+}
+.feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin: 137px 0 50px ;
+    text-align: center;
 
+}
+.feedback-box{
+   display: flex;
+    gap: 20px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.feedback-box-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1E1E;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.feedback-box-description{
+    font-size: 16px;
+    font-weight: ;
+    color: #1E1E1E;
+    margin-bottom: 24px;
+}
+.feedback-box-name{
+   font-size: 14px;
+    font-weight:bold ;
+    color: #757575;
+    margin-left: 12px;
+    margin-bottom: 2px;
+}
+.feedback-box-date{
+    color: #B3B3B3;
+    margin-left: 12px;
+}
+/* div img{
+    width: 40px;
+    height: 40px;
+} */
+.feedbacx-box-image{
+    display: flex;
+}
 /* Let’s Get in Touch-button */
 .btn-lets-from{
       color: #FFFFFF;
@@ -170,4 +229,28 @@ textarea{
 .from-placeholder{
     padding-left: 20px;
     margin-top: 10px;
+}
+/* footer */
+footer{
+    text-align: center;
+    padding: 103px 0;
+}
+.footer-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+div a{
+    text-decoration: none;
+    color: #8987A1;
+    padding-left: 20px;
+}
+.footer-description{
+    color:  #8987A1;
+    margin-bottom: 20px;
+}
+.footer-box{
+    /* padding-left: 65px; */
+    /* display: flex;
+    justify-content: space-around; */
 }
