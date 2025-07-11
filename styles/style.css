@@ -52,6 +52,7 @@ nav{
     margin-bottom: 37px ;
     /* margin: 309px 267px 152px 267px; */
 }
+/* all-button */
 /* nav-button */
 .btn-sign{
     color: #FFFFFF;
@@ -63,6 +64,10 @@ nav{
     width: 132px;
     height: 48px;
    
+}
+button:hover{
+    background-color:#f2c60c;
+    color: black;
 }
 /* banner-button */
 .btn-stay{
@@ -95,6 +100,16 @@ nav{
     padding: 12px 36px;
     margin: 20px 0;
 
+}
+.btn-lets-from{
+      color: #FFFFFF;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 520px;
+    text-align: center;
+   padding: 19px 0;
 }
 /* productive-user-section */
 
@@ -186,6 +201,7 @@ nav{
 /* Ready to focus better */
 .Ready-to-focus-better{
     padding: 71px 150px;
+    background-color: #ffffff;
 }
 .ready-title{
     font-size: 50px;
@@ -205,16 +221,7 @@ margin: 20px 0;
     border-radius: 48px;
 }
 
-.btn-lets-from{
-      color: #FFFFFF;
-    background-color: #4E47FF;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    
-    text-align: center;
-   padding: 19px 0;
-}
+
 /* action-section */
 .action-section{
      padding:  116px 150px;
@@ -294,6 +301,7 @@ textarea{
 footer{
     text-align: center;
     padding: 103px 0;
+    background-color: #ffffff;
 }
 .footer-title{
     font-size: 100px;
